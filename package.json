@@ -4,7 +4,8 @@
   "description": "Boilerplate for vanillaJs using webpack",
   "main": "app.js",
   "scripts": {
-    "build": "webpack"
+    "start": "webpack --progress --colors --watch",
+    "build": "webpack --progress --colors"
   },
   "keywords": [
     "webpack",
@@ -13,6 +14,12 @@
   "author": "Lucas deGomez",
   "license": "ISC",
   "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "css-loader": "^0.28.7",
+    "raw-loader": "^0.5.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
     "webpack": "^3.6.0"
   }
 }
